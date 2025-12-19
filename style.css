@@ -43,8 +43,8 @@ body {
     .display-1 {
         font-size: 3rem;
     }
-    .display-4 {
-        font-size: 1.5rem;
+    #welcomeMessage {
+        font-size: 2.5rem; /* Larger for tablets and mobiles */
     }
 }
 
@@ -52,7 +52,7 @@ body {
     .display-1 {
         font-size: 2rem;
     }
-    .display-4 {
-        font-size: 1rem;
+    #welcomeMessage {
+        font-size: 2rem; /* Even larger for small mobiles */
     }
 }
