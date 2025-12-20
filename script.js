@@ -8,7 +8,7 @@ const fireworks = new Fireworks.default(fireworksContainer);
 startButton.addEventListener('click', () => {
     const audio = new Audio('src/Audio_Request_Ignored_Video_Provided.mp3');
     audio.play().catch(error => console.log("Audio play failed:", error));
-    
+
     startButton.classList.add('d-none');
     title.classList.add('d-none');
     let count = 5;
