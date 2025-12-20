@@ -37,6 +37,9 @@ function speak(text) {
 }
 
 startButton.addEventListener('click', () => {
+    const audio = new Audio('src/Audio_Request_Ignored_Video_Provided.mp3');
+    audio.play().catch(error => console.log("Audio play failed:", error));
+
     // Ensure voices are updated
     if (voices.length === 0) loadVoices();
     
